@@ -1,0 +1,1161 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>CAM Template Evaluation</title>
+   </head>
+   <body>
+      <h2>CAM Template Evaluation</h2>
+      <h4>Version 1.45</h4>
+      <h4>CAM Template HEADER information:</h4>
+      <table>
+         <tr>
+            <td>Description: </td>
+            <td>Generated for Facility  by XSD 2 CAM generator v2.15</td>
+         </tr>
+         <tr>
+            <td>Owner: </td>
+            <td>To be Completed</td>
+         </tr>
+         <tr>
+            <td>Date: </td>
+            <td>2013-10-28T10:06:13</td>
+         </tr>
+         <tr>
+            <td>Version: </td>
+            <td>RC4</td>
+         </tr>
+      </table>
+      <ul>
+         <li>Total number of Elements: 1856</li>
+         <li>Total number of Attributes: 428</li>
+         <li>Total number of constraint Rules: 3091</li>
+         <li>Annotations: 1856</li>
+         <li>Hints: 899</li>
+         <li>Excluded Elements: 0</li>
+         <li>Excluded Attributes: 0</li>
+      </ul>
+      <ul>
+         <li>Unique Elements count: 234</li>
+         <li>Unique Attributes count: 6</li>
+         <li>Unique constraint Rules count: 442</li>
+         <li>Names mode: UpperCase</li>
+      </ul>
+      <p></p>
+      <h3>RULES INTEGRITY:</h3>
+      <ul>
+         <li>No problems found</li>
+      </ul>
+      <p></p>
+      <h3>NAMING AND DESIGN RULES (NDR) ASSESSMENT:</h3>
+      <ul>
+         <li style="color:red">attribute name does not match representation
+            term rules: 1
+         </li><br><font color="black"> - core:externalIDReference</font><br><li style="color:red">attribute names not beginning with
+            upper case letter (A-Z): 6
+         </li><br><font color="black"> - core:externalEntityName - core:externalID - core:externalSystemName - core:externalIDReference - core:propertySetName - core:propertySetExternalIdentifier</font><br><p><font color="red"><strong>SCORE: 9 out of 10.0</strong></font></p>
+         <p><font color="black"><small>HINT: representation terms use indicates the
+                  nature of the value carried by a leaf node in the
+                  structure. The terms qualify the name of the node
+                  and its content.<br> Representation terms are
+                  domain applicable and can be tailored accordingly.
+                  The default list of terms provided for guidance
+                  here are for a name that contains: 'Amount',
+                  'Count', 'Total', 'BinaryObject', 'Graphic', 'Picture',
+                  'Sound', 'Image', 'Video', 'Code', 'Category', 'Currency',
+                  'EMail', 'DateTime', 'Date', 'Time', 'Indicator',
+                  'Format', 'Length', 'Width', 'Height', 'Weight',
+                  'Level', 'Measure', 'Mode', 'Method', 'Numeric',
+                  'Number', 'Price', 'State', 'Status', 'Rank',
+                  'Flag', 'Frequency', 'Size', 'Unit', 
+                  'Value', 'Version', 'Rate', 'Required', 'Percent',
+                  'Quantity', 'Qty', 'Description', 'Comment',
+                  'Reason', 'Location', 'Instructions', 'Text',
+                  'Title', 'Type', 'Year', 'Month', 'Day', 'Week', 'Name',
+                  'URI', 'URL', or 'URN'; or that ends with
+                  'Days', 'Hours', 'Minutes', 'ID', 'Id', XML, Votes, Score,
+                  'Identification' or 'Identifier' <br>A domain may
+                  use specialized terms that are not in the overall
+                  list shown here.</small></font></p>
+      </ul>
+      <p></p>
+      <h3>ISSUES AND WARNINGS:</h3>
+      <ul>
+         <li><b>Warning - date or time items with no content mask</b><ul>
+               <li>core:AssetStartDate</li>
+            </ul>
+         </li>
+         <li><b>Warning - code, type, indicator or flag items with no allowed values restriction</b><ul>
+               <li>/core:AssetTypes/cobielite:AssetType</li>
+               <li>- child node: cobielite:AssetType/core:AssetTypeAccountingCategory</li>
+               <li>- child node: core:AttributeBooleanValue/core:BooleanValue</li>
+               <li>- child node: core:AttributeMonetaryValue/core:MonetaryUnit</li>
+               <li>/cobielite:AssetType/core:AssetTypeCodePerformance</li>
+               <li>/cobielite:AssetType/core:AssetTypeColorCode</li>
+               <li>/cobielite:Asset/core:AssetBarCode</li>
+               <li>/cobielite:Contact/core:ContactRegionCode</li>
+               <li>/cobielite:Contact/core:ContactPostalCode</li>
+            </ul>
+         </li>
+         <li><b>Warning - numeric items with no content mask</b><ul>
+               <li>cobielite:Facility/core:FacilityDefaultMeasurementStandard</li>
+               <li>cobielite:Floor/core:FloorElevationValue</li>
+               <li>core:FloorElevationValue/core:DecimalValue</li>
+               <li>cobielite:Floor/core:FloorHeightValue</li>
+               <li>core:FloorHeightValue/core:DecimalValue</li>
+               <li>cobielite:Space/core:SpaceUsableHeightValue</li>
+               <li>core:SpaceUsableHeightValue/core:DecimalValue</li>
+               <li>cobielite:Space/core:SpaceGrossAreaValue</li>
+               <li>core:SpaceGrossAreaValue/core:DecimalValue</li>
+               <li>cobielite:Space/core:SpaceNetAreaValue</li>
+               <li>core:SpaceNetAreaValue/core:DecimalValue</li>
+               <li>cobielite:Attribute/core:AttributeValue</li>
+               <li>core:AttributeValue/core:AttributeBooleanValue</li>
+               <li>core:AttributeBooleanValue/core:BooleanValue</li>
+               <li>core:AttributeValue/core:AttributeDateValue</li>
+               <li>core:AttributeValue/core:AttributeDateTimeValue</li>
+               <li>core:AttributeValue/core:AttributeDecimalValue</li>
+               <li>core:AttributeDecimalValue/core:DecimalValue</li>
+               <li>core:AttributeDecimalValue/core:MinValueDecimal</li>
+               <li>core:AttributeDecimalValue/core:MaxValueDecimal</li>
+               <li>core:AttributeValue/core:AttributeIntegerValue</li>
+               <li>core:AttributeValue/core:AttributeMonetaryValue</li>
+               <li>core:AttributeValue/core:AttributeStringValue</li>
+               <li>core:AttributeStringValue/core:StringValue</li>
+               <li>core:AttributeStringValue/core:AllowedValues</li>
+               <li>core:AllowedValues/core:AttributeAllowedValue</li>
+               <li>core:AttributeValue/core:AttributeTimeValue</li>
+               <li>cobielite:AssetType/core:AssetTypeModelNumber</li>
+               <li>cobielite:AssetType/core:AssetTypeReplacementCostValue</li>
+               <li>core:AssetTypeReplacementCostValue/core:DecimalValue</li>
+               <li>cobielite:AssetType/core:AssetTypeExpectedLifeValue</li>
+               <li>cobielite:AssetType/core:AssetTypeNominalLength</li>
+               <li>core:AssetTypeNominalLength/core:DecimalValue</li>
+               <li>core:AssetTypeNominalWidth/core:DecimalValue</li>
+               <li>cobielite:AssetType/core:AssetTypeNominalHeight</li>
+               <li>core:AssetTypeNominalHeight/core:DecimalValue</li>
+               <li>cobielite:Asset/core:AssetSerialNumber</li>
+               <li>cobielite:Asset/core:AssetInstalledModelNumber</li>
+               <li>cobielite:Asset/core:AssetTagNumber</li>
+               <li>cobielite:Spare/core:SpareSetNumber</li>
+               <li>cobielite:Spare/core:SparePartNumber</li>
+               <li>cobielite:Job/core:JobFrequencyValue</li>
+               <li>core:JobFrequencyValue/core:DecimalValue</li>
+               <li>cobielite:Contact/core:ContactPostalBoxNumber</li>
+            </ul>
+         </li>
+      </ul>
+      <p></p>
+      <h3>EXTERNALS:</h3>
+      <table>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td><b>Namespace</b></td>
+            <td><b>URL</b></td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>xsd</td>
+            <td>http://www.w3.org/2001/XMLSchema</td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>as</td>
+            <td>http://www.oasis-open.org/committees/cam</td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>core</td>
+            <td>http://docs.buildingsmartalliance.org/nbims03/cobie/core</td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>xml</td>
+            <td>http://www.w3.org/XML/1998/namespace</td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>camed</td>
+            <td>http://jcam.org.uk/editor</td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>cobielite</td>
+            <td>http://docs.buildingsmartalliance.org/nbims03/cobie/cobielite</td>
+         </tr>
+      </table>
+      <table></table>
+      <p></p>
+      <h3>SPELLING REVIEW:</h3>
+      <p> Cut and paste the names list below into a word processor to perform spelling
+         check on element and attribute names. <br><small>x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x</small></p>
+      <table>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td><b>Element names</b></td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Project Assignment </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Project Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Project Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Site Assignment </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Site Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Site Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Default Linear Unit </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Default Area Unit </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Default Volume Unit </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Default Currency Unit </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Default Measurement Standard </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Deliverable Phase Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floors </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Elevation Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Unit Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Decimal Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Height Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spaces </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Signage Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Usable Height Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Gross Area Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Net Area Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Zone Assignments </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone Assignment </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Boolean Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Boolean Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Date Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Date Time Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Decimal Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Min Value Decimal </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Max Value Decimal </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Integer Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Integer Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Min Value Integer </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Max Value Integer </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Monetary Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Monetary Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Monetary Unit </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute String Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>String Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Allowed Values </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Allowed Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Time Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Attribute Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue Risk Text </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue Severity Text </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue Impact Text </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Assignment </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Email Reference </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Issue Mitigation Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document URI </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document Reference URI </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Document Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Floor Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zones </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Zone Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Types </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Accounting Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Model Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Replacement Cost Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Expected Life Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Nominal Length </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Nominal Width </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Nominal Height </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Accessibility Text </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Code Performance </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Color Code </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Constituents Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Features Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Finish Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Grade Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Material Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Shape Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Size Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Sustainability Performance Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assets </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Space Assignments </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Space Assignment </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Serial Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Installation Date </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Installed Model Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Warranty Start Date </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Start Date </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Tag Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Bar Code </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Identifier </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Location Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset System Assignments </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System Assignment </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Assignments </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Assignment </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Parent Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Assembly Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Manufacturer Contact Assignments </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranties </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty Duration </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty Gaurantor Contact Assignments </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Warranty Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spares </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Set Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Part Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Supplier Contact Assignments </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Spare Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Jobs </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Task ID </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Status </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Duration </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Start Date </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Start Condition Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Frequency Value </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Prior Task ID </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resources </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resource </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resource Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resource Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resource Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resource Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resource Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Resource Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Job Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Asset Type Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Systems </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>System Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connections </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Asset1 Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Asset1 Port Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Asset2 Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Asset2 Port Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Description </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Connection Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contacts </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Email </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Category </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Company Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Phone Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Department Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Given Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Family Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Street </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Postal Box Number </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Town Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Region Code </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Country Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Postal Code </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact URL </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Contact Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Attributes </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Documents </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Facility Issues </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td><b>Attribute names</b></td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>External Entity Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>External ID </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>External System Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>External ID Reference </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Property Set Name </td>
+         </tr>
+         <tr>
+            <td>&nbsp;&nbsp;</td>
+            <td>Property Set External Identifier </td>
+         </tr>
+      </table>
+      <p>
+         <hr>
+      </p>
+   </body>
+</html>

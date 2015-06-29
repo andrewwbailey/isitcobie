@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductInstallationReport_210_ServerResponse xmlns:lcie="http://docs.buildingsmartalliance.org/nbims03/lcie/core" xsi:schemaLocation="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport 210_01_ProductInstallationReport.xsd" xmlns:cobie="http://docs.buildingsmartalliance.org/nbims03/cobie/core" xmlns="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport " xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<lcie:CreateResult>
+		<InformationExchangeID>210.01_ProductInstallationReport</InformationExchangeID>
+		<lcie:RevisionID>5</lcie:RevisionID>
+		<lcie:CreateSuccess>true</lcie:CreateSuccess>
+		<lcie:CreateResultMessage>New Document Field Test Report-Air Handling Units-Equipment Tests AH1-3</lcie:CreateResultMessage>
+	</lcie:CreateResult>
+</ProductInstallationReport_210_ServerResponse>

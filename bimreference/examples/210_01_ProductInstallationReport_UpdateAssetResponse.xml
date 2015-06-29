@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductInstallationReport_210_ServerResponse xmlns:lcie="http://docs.buildingsmartalliance.org/nbims03/lcie/core" xsi:schemaLocation="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport 210_01_ProductInstallationReport.xsd" xmlns:cobie="http://docs.buildingsmartalliance.org/nbims03/cobie/core" xmlns="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<lcie:UpdateResult>
+		<InformationExchangeID>210.01_ProductInstallationReport</InformationExchangeID>
+		<lcie:RevisionID>5</lcie:RevisionID>
+		<lcie:UpdateSuccess>true</lcie:UpdateSuccess>
+		<lcie:UpdateResultMessage>Asset AC Unit Type 1 AC-1, AC Unit Type 1, First Floor, 1B21 Updated</lcie:UpdateResultMessage>
+	</lcie:UpdateResult>
+</ProductInstallationReport_210_ServerResponse>

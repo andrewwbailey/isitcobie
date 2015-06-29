@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductInstallationReport_210_Request xmlns:lcie="http://docs.buildingsmartalliance.org/nbims03/lcie/core" xsi:schemaLocation="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport 210_01_ProductInstallationReport.xsd" xmlns:cobie="http://docs.buildingsmartalliance.org/nbims03/cobie/core" xmlns="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<InformationExchangeID>210.01_ProductInstallationReport</InformationExchangeID>
+	<lcie:SessionToken>abcdefghijklmnop</lcie:SessionToken>
+	<lcie:UserID>345</lcie:UserID>
+	<lcie:ReadRequest>
+		<lcie:RevisionID>4</lcie:RevisionID>
+		<lcie:ReadHandlerID>202</lcie:ReadHandlerID>
+		<ProductInstallationKey>
+			<cobie:AssetName>AC Unit Type 1 AC-1</cobie:AssetName>
+			<cobie:AssetTypeAssignment>
+				<cobie:AssetTypeName>AC Unit Type 1</cobie:AssetTypeName>
+			</cobie:AssetTypeAssignment>
+			<cobie:AssetSpaceAssignments>
+				<cobie:SpaceAssignment>
+					<cobie:FloorName>First Floor</cobie:FloorName>
+					<cobie:SpaceName>1B21</cobie:SpaceName>
+				</cobie:SpaceAssignment>
+			</cobie:AssetSpaceAssignments>
+		</ProductInstallationKey>
+	</lcie:ReadRequest>
+</ProductInstallationReport_210_Request>

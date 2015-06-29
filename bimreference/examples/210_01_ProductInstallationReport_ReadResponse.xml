@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductInstallationReport_210_ServerResponse xmlns:lcie="http://docs.buildingsmartalliance.org/nbims03/lcie/core" xsi:schemaLocation="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport 210_01_ProductInstallationReport.xsd" xmlns:cobie="http://docs.buildingsmartalliance.org/nbims03/cobie/core" xmlns="http://docs.buildingsmartalliance.org/nbims03/lcie/21001ProductInstallationReport" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ProductInstallationReportReadResult>
+		<InformationExchangeID>210.01_ProductInstallationReport</InformationExchangeID>
+		<AssetType cobie:externalEntityName="IfcCondenserType" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+			<cobie:AssetTypeName>AC Unit Type 1</cobie:AssetTypeName>
+			<cobie:AssetTypeCategory>23-75 10 24 21 27: Unitary Air Conditioning Equipment</cobie:AssetTypeCategory>
+			<cobie:AssetTypeDescription>Horiz. D.X. Fan Coil</cobie:AssetTypeDescription>
+			<cobie:AssetTypeAccountingCategory>Fixed</cobie:AssetTypeAccountingCategory>
+			<cobie:AssetTypeModelNumber>PC24EK1</cobie:AssetTypeModelNumber>
+			<cobie:AssetTypeReplacementCostValue/>
+			<cobie:AssetTypeExpectedLifeValue/>
+			<cobie:AssetTypeNominalLength/>
+			<cobie:AssetTypeNominalWidth/>
+			<cobie:AssetTypeNominalHeight/>
+			<cobie:AssetTypeAccessibilityText>n/a</cobie:AssetTypeAccessibilityText>
+			<cobie:AssetTypeCodePerformance>n/a</cobie:AssetTypeCodePerformance>
+			<cobie:AssetTypeColorCode>n/a</cobie:AssetTypeColorCode>
+			<cobie:AssetTypeConstituentsDescription>n/a</cobie:AssetTypeConstituentsDescription>
+			<cobie:AssetTypeFeaturesDescription>n/a</cobie:AssetTypeFeaturesDescription>
+			<cobie:AssetTypeFinishDescription>n/a</cobie:AssetTypeFinishDescription>
+			<cobie:AssetTypeGradeDescription>n/a</cobie:AssetTypeGradeDescription>
+			<cobie:AssetTypeMaterialDescription>n/a</cobie:AssetTypeMaterialDescription>
+			<cobie:AssetTypeShapeDescription>n/a</cobie:AssetTypeShapeDescription>
+			<cobie:AssetTypeSizeDescription>n/a</cobie:AssetTypeSizeDescription>
+			<cobie:AssetTypeSustainabilityPerformanceDescription>n/a</cobie:AssetTypeSustainabilityPerformanceDescription>
+			<cobie:AssetTypeManufacturerContactAssignments>
+				<cobie:ContactAssignment>
+					<cobie:ContactEmailReference>sales@mitsubishielectric.com</cobie:ContactEmailReference>
+				</cobie:ContactAssignment>
+			</cobie:AssetTypeManufacturerContactAssignments>
+			<cobie:Assets>
+				<Asset cobie:externalEntityName="IfcEnergyConversionDevice" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:pid="http://productinstallation210.defs.lcie.cobielite.cobie.erdc.org">
+					<cobie:AssetName>AC Unit Type 1 AC-1</cobie:AssetName>
+					<cobie:AssetSpaceAssignments>
+						<cobie:SpaceAssignment>
+							<cobie:FloorName>First Floor</cobie:FloorName>
+							<cobie:SpaceName>1B21</cobie:SpaceName>
+						</cobie:SpaceAssignment>
+					</cobie:AssetSpaceAssignments>
+					<cobie:AssetDescription>AC Unit</cobie:AssetDescription>
+					<cobie:AssetSerialNumber>YNC54980</cobie:AssetSerialNumber>
+					<cobie:AssetInstallationDate>2011-04-22</cobie:AssetInstallationDate>
+					<cobie:AssetTagNumber>n/a</cobie:AssetTagNumber>
+					<cobie:AssetBarCode>n/a</cobie:AssetBarCode>
+					<cobie:AssetIdentifier>n/a</cobie:AssetIdentifier>
+					<cobie:AssetLocationDescription>AC Unit</cobie:AssetLocationDescription>
+					<cobie:AssetDocuments>
+						<lcie:Document cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a">
+							<cobie:DocumentName>Field Test Report-Air Handling Units-Equipment Tests AH1-3</cobie:DocumentName>
+							<cobie:DocumentCategory>Test Reports</cobie:DocumentCategory>
+							<cobie:DocumentDescription>n/a</cobie:DocumentDescription>
+							<cobie:DocumentURI>doc/V2-SD-09-AirHandlingUnits-EquipmentTests AH1-3.pdf</cobie:DocumentURI>
+							<cobie:DocumentReferenceURI>01 20 01.00 10</cobie:DocumentReferenceURI>
+						</lcie:Document>
+						<lcie:Document cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a">
+							<cobie:DocumentName>Field Test Report-Air Handling Units-Equipment Tests AH2-2</cobie:DocumentName>
+							<cobie:DocumentCategory>Test Reports</cobie:DocumentCategory>
+							<cobie:DocumentDescription>n/a</cobie:DocumentDescription>
+							<cobie:DocumentURI>doc/V2-SD-09-AirHandlingUnits-EquipmentTests AHU-2.pdf</cobie:DocumentURI>
+							<cobie:DocumentReferenceURI>01 20 01.00 10</cobie:DocumentReferenceURI>
+						</lcie:Document>
+					</cobie:AssetDocuments>
+				</Asset>
+				<Asset cobie:externalEntityName="IfcEnergyConversionDevice" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:pid="http://productinstallation210.defs.lcie.cobielite.cobie.erdc.org">
+					<cobie:AssetName>AC Unit Type 1 AC-2</cobie:AssetName>
+					<cobie:AssetSpaceAssignments>
+						<cobie:SpaceAssignment>
+							<cobie:FloorName>First Floor</cobie:FloorName>
+							<cobie:SpaceName>1C13</cobie:SpaceName>
+						</cobie:SpaceAssignment>
+					</cobie:AssetSpaceAssignments>
+					<cobie:AssetDescription>AC Unit</cobie:AssetDescription>
+					<cobie:AssetSerialNumber>YNC54981</cobie:AssetSerialNumber>
+					<cobie:AssetInstallationDate>2011-04-22</cobie:AssetInstallationDate>
+					<cobie:AssetTagNumber>n/a</cobie:AssetTagNumber>
+					<cobie:AssetBarCode>n/a</cobie:AssetBarCode>
+					<cobie:AssetIdentifier>n/a</cobie:AssetIdentifier>
+					<cobie:AssetLocationDescription>AC Unit</cobie:AssetLocationDescription>
+					<cobie:AssetDocuments/>
+				</Asset>
+				<Asset cobie:externalEntityName="IfcEnergyConversionDevice" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:pid="http://productinstallation210.defs.lcie.cobielite.cobie.erdc.org">
+					<cobie:AssetName>AC Unit Type 1 AC-3</cobie:AssetName>
+					<cobie:AssetSpaceAssignments>
+						<cobie:SpaceAssignment>
+							<cobie:FloorName>Second Floor</cobie:FloorName>
+							<cobie:SpaceName>2B12</cobie:SpaceName>
+						</cobie:SpaceAssignment>
+					</cobie:AssetSpaceAssignments>
+					<cobie:AssetDescription>AC Unit</cobie:AssetDescription>
+					<cobie:AssetSerialNumber>YNC54982</cobie:AssetSerialNumber>
+					<cobie:AssetInstallationDate>2011-04-22</cobie:AssetInstallationDate>
+					<cobie:AssetTagNumber>n/a</cobie:AssetTagNumber>
+					<cobie:AssetBarCode>n/a</cobie:AssetBarCode>
+					<cobie:AssetIdentifier>n/a</cobie:AssetIdentifier>
+					<cobie:AssetLocationDescription>AC Unit</cobie:AssetLocationDescription>
+					<cobie:AssetDocuments/>
+				</Asset>
+				<Asset cobie:externalEntityName="IfcEnergyConversionDevice" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:pid="http://productinstallation210.defs.lcie.cobielite.cobie.erdc.org">
+					<cobie:AssetName>AC Unit Type 1 AC-4</cobie:AssetName>
+					<cobie:AssetSpaceAssignments>
+						<cobie:SpaceAssignment>
+							<cobie:FloorName>Second Floor</cobie:FloorName>
+							<cobie:SpaceName>2C15</cobie:SpaceName>
+						</cobie:SpaceAssignment>
+					</cobie:AssetSpaceAssignments>
+					<cobie:AssetDescription>AC Unit</cobie:AssetDescription>
+					<cobie:AssetSerialNumber>YNC54983</cobie:AssetSerialNumber>
+					<cobie:AssetInstallationDate>2011-04-22</cobie:AssetInstallationDate>
+					<cobie:AssetTagNumber>n/a</cobie:AssetTagNumber>
+					<cobie:AssetBarCode>n/a</cobie:AssetBarCode>
+					<cobie:AssetIdentifier>n/a</cobie:AssetIdentifier>
+					<cobie:AssetLocationDescription>AC Unit</cobie:AssetLocationDescription>
+					<cobie:AssetDocuments/>
+				</Asset>
+			</cobie:Assets>
+			<cobie:AssetTypeAttributes>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Return Duct  (Unit/Room Outlet) Test Pressure</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 6</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeStringValue>
+							<cobie:UnitName>P</cobie:UnitName>
+							<cobie:StringValue>250 Negative</cobie:StringValue>
+						</cobie:AttributeStringValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Return Duct (Unit/Room Outlet) Leak Class</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 5</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeDecimalValue>
+							<cobie:DecimalValue>3</cobie:DecimalValue>
+						</cobie:AttributeDecimalValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Return Duct (Unit/Room Outlet) Min. Static Pressure</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 3</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeStringValue>
+							<cobie:UnitName>P</cobie:UnitName>
+							<cobie:StringValue>250 Negative</cobie:StringValue>
+						</cobie:AttributeStringValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Return Duct (Unit/Room Outlet)Seal Class</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 4</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeStringValue>
+							<cobie:StringValue>A</cobie:StringValue>
+						</cobie:AttributeStringValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Supply Duct (Unit/Room Outlet) Leak Class</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 5</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeDecimalValue>
+							<cobie:DecimalValue>3</cobie:DecimalValue>
+						</cobie:AttributeDecimalValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Supply Duct (Unit/Room Outlet) Min. Static Pressure</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 3</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeStringValue>
+							<cobie:UnitName>P</cobie:UnitName>
+							<cobie:StringValue>250 Positive</cobie:StringValue>
+						</cobie:AttributeStringValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Supply Duct (Unit/Room Outlet) Test Pressure</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 6</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeStringValue>
+							<cobie:UnitName>P</cobie:UnitName>
+							<cobie:StringValue>250 Positive</cobie:StringValue>
+						</cobie:AttributeStringValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+				<lcie:Attribute cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" cobie:propertySetName="n/a" cobie:propertySetExternalIdentifier="n/a">
+					<cobie:AttributeName>Supply Duct (Unit/Room Outlet)Seal Class</cobie:AttributeName>
+					<cobie:AttributeCategory>Requirement</cobie:AttributeCategory>
+					<cobie:AttributeDescription>Clinic_245_HVACSChedules.PDF Duct Static Pressure Schedule, Column 4</cobie:AttributeDescription>
+					<cobie:AttributeValue>
+						<cobie:AttributeStringValue>
+							<cobie:StringValue>A</cobie:StringValue>
+						</cobie:AttributeStringValue>
+					</cobie:AttributeValue>
+				</lcie:Attribute>
+			</cobie:AssetTypeAttributes>
+		</AssetType>
+		<cobie:Contacts>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>bill.east@us.army.mil</cobie:ContactEmail>
+				<cobie:ContactCategory>34-55 14 11: Consultant</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Engineer Research and Development Center</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>217.352-6511</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>n/a</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>Bill</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>East</cobie:ContactFamilyName>
+				<cobie:ContactStreet>2902 Newmark Dr.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 9005</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>2902 Newmark Dr.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>61826</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="IfcPersonAndOrganization" cobie:externalID="n/a" cobie:externalSystemName="Autodesk Revit Architecture 2011" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>danielle.r.love@usace.army.mil</cobie:ContactEmail>
+				<cobie:ContactCategory>34-55 14 11: Consultant</cobie:ContactCategory>
+				<cobie:ContactCompanyName>USACE</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>217-373-3475</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>n/a</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>Danielle</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>Love</cobie:ContactFamilyName>
+				<cobie:ContactStreet>2902 Newmark Dr.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 9005</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>2902 Newmark Dr.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>61826</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="IfcPersonAndOrganization" cobie:externalID="n/a" cobie:externalSystemName="Autodesk Revit Architecture 2012" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>mariangelica.carrasquillo@usace.army.mil</cobie:ContactEmail>
+				<cobie:ContactCategory>34-55 14 11: Consultant</cobie:ContactCategory>
+				<cobie:ContactCompanyName>USACE</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>217-352-6511</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>n/a</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>Mariangelica</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>Carrasquillo-Mangual</cobie:ContactFamilyName>
+				<cobie:ContactStreet>2902 Newmark Dr.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 9006</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>2902 Newmark Dr.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>61827</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="IfcPersonAndOrganization" cobie:externalID="n/a" cobie:externalSystemName="Autodesk Revit Architecture 2012" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>james.d.mcauley@usace.army.mil</cobie:ContactEmail>
+				<cobie:ContactCategory>34-55 14 11: Consultant</cobie:ContactCategory>
+				<cobie:ContactCompanyName>USACE</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>217-352-6511</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>n/a</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>James</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>McAulley</cobie:ContactFamilyName>
+				<cobie:ContactStreet>2902 Newmark Dr.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 9006</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>2902 Newmark Dr.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>61827</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@coleparmer.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 21: Distributor</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Cole-Parmer</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-323-4340</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>625 East Bunker Court</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>625 East Bunker Court</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>60061</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>contact@securalldoors.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Securall</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>888-326-7890</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>5122 N. State Rd. 39</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>5122 N. State Rd. 39</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IN</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>46350</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>DayBrite.Marketing@Philips.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Philips Day-Brite</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-234-1890</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>776 South Green Street</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>776 South Green Street</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MS</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>38804</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>dependable@tubeliteinc.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Tubelite Inc.</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-866-2227</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>3056 Walker Ridge Dr. NW Suite G</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>3056 Walker Ridge Dr. NW Suite G</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>49544</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>fibrdor@fibrdor.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>FIB-R-DOR</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-342-7367</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 13268</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>AR</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>72113</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@amtrol.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Amtrol Inc</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>401-884-6300</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1400 Division Road</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1400 Division Road</cobie:ContactTownName>
+				<cobie:ContactRegionCode>RI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>02893</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@contrastlighting.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Contrast Lighting</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>888-839-4624</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1009 rue du Parc Industriel</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1009 rue du Parc Industriel</cobie:ContactTownName>
+				<cobie:ContactRegionCode>Qc</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>CAN</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>G6Z 1C5</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@crossaluminum.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Cross Aluminum</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-806-3667</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1770 Mayflower Rd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1770 Mayflower Rd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>49120</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@ellisonbronze.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Ellison Bronze</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-665-6445</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>125 W. Main St.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>125 W. Main St.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>NY</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>14733</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@hartcool.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Hart &amp; Cooley</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-223-8461</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>5030 Corporate Exchange Blvd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>5030 Corporate Exchange Blvd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>49512</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@hufcor.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Hufcor</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-356-6968</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>2101 Kennedy Rd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 591</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>2101 Kennedy Rd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>WI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>53547</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@modernfold.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Modernfold</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-869-9685</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>215 W. New Rd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>215 W. New Rd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IN</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>46140</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@truaire.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Truaire Industries Inc</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>888-878-2473</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>11020 Bloomfield Ave</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>11020 Bloomfield Ave</cobie:ContactTownName>
+				<cobie:ContactRegionCode>CA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>90670</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>info@wolfxray.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Wolf X-Ray Corporation</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-356-9729</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>100 West Industry Court</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>100 West Industry Court</cobie:ContactTownName>
+				<cobie:ContactRegionCode>NY</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>11729</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>karpensteel@karpensteel.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Karpen Steel</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>828-645-4821</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>181 Reems Creek Rd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>181 Reems Creek Rd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>NC</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>28787</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>manufacturerx@genericmanufacturer.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Generic Manufacturer</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>217-352-6511</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>n/a</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>n/a</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>n/a</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>manufacturery@genericmanufacturer.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Generic Manufacturer</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>217-352-6511</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>n/a</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>n/a</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>n/a</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>quickquote@doorcomponents.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Door Components</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>909-770-5700</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>7980 Redwood Ave</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>7980 Redwood Ave</cobie:ContactTownName>
+				<cobie:ContactRegionCode>CA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>92336</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@4oakton.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Oakton Instruments</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>888-462-5866</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 5136</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>60061</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@allightingltd.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>AL Lighting Ltd</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>631-698-8919</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>15 Commercial Blvd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>15 Commercial Blvd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>NY</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>11763</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@americanstandard-us.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>American Standard</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-442-1902</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1 Centennial Plaza</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1 Centennial Plaza</cobie:ContactTownName>
+				<cobie:ContactRegionCode>NJ</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>08855-6820</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@apollovalves.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Conbraco Industries</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>704-841-6000</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>701 Matthews Mint Hill Rd</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>701 Matthews Mint Hill Rd</cobie:ContactTownName>
+				<cobie:ContactRegionCode>NC</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>28105</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@bradleycorp.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Bradley Corporation</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-272-3539</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>W142 N9101 Fountain Blvd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>P.O. Box 309</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>W142 N9101 Fountain Blvd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>WI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>2045-03-31T00:00:00.000</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@cooperindustries.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Cooper Lighting</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>770-486-4800</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1121 Highway 74 South</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1121 Highway 74 South</cobie:ContactTownName>
+				<cobie:ContactRegionCode>GA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>30269</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@dataaire.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Data Aire Inc.</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>714-921-6000</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>230 W. Blue Ridge Avenue</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>230 W. Blue Ridge Avenue</cobie:ContactTownName>
+				<cobie:ContactRegionCode>CA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>92865-4225</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@eaton.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Eaton</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>412-893-3300</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1000 Cherrington Parkway</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1000 Cherrington Parkway</cobie:ContactTownName>
+				<cobie:ContactRegionCode>PA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>15108</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@efcocorp.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>EFCO Coorporation</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-221-4169</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1000 Country Rd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1000 Country Rd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MO</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>2079-11-24T00:00:00.000</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@elkayusa.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Elkay Manufacturing Co.</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>630-574-8484</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>2222 Camden Court</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>2222 Camden Court</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>60523</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@fleetwoodusa.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>FleetWood Windows &amp; Doors</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-736-7363</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1 Fleetwood Way</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>P.O. Box 1086</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1 Fleetwood Way</cobie:ContactTownName>
+				<cobie:ContactRegionCode>CA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>2154-04-15T00:00:00.000</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@goodtime.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Goodtime Medical</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>888-386-8225</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>25 Cooperative Way</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>25 Cooperative Way</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MO</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>2073-07-20T00:00:00.000</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@grainger.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Grainger.com</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>888-361-8649</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>n/a</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>n/a</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@greenheck.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Greenheck</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>715-359-6171</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 410</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>WI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>54476-0410</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@inprocorp.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>InPro Corporation</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-222-5556</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>S80 W18766 Apollo Drive</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>S80 W18766 Apollo Drive</cobie:ContactTownName>
+				<cobie:ContactRegionCode>WI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>2045-07-07T00:00:00.000</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@kohler.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Kohler</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-456-4537</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>444 Highland Drive</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>444 Highland Drive</cobie:ContactTownName>
+				<cobie:ContactRegionCode>WI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>53044</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@krueger-hvac.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Krueger</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>602-622-7601</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 5486</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>AZ</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>85703-9990</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@leader-ventilation.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Leader Ventilation</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>86-574-87881138</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>Floor 2, ShenYongDa Building, Airport Road</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>Floor 2, ShenYongDa Building, Airport Road</cobie:ContactTownName>
+				<cobie:ContactRegionCode>Zhejiang</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>China</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>315176</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@lithonia.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Lithonia Lighting</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-315-4963</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1 Lithonia Way</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1 Lithonia Way</cobie:ContactTownName>
+				<cobie:ContactRegionCode>GA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>30012</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@lochinvar.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Lochinvar</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>615-889-8900</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>2005 Elm Hill Pike</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>2005 Elm Hill Pike</cobie:ContactTownName>
+				<cobie:ContactRegionCode>TN</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>37210</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@lumaxlighting.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Lumax Industries Inc</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>814-944-2537</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 991</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>PA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>16603</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@marble.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>All Granite and Marble</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>631-492-2027</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>90 Marcus Blvd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>90 Marcus Blvd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>NY</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>11729</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@marvin.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Marvin Door and Window</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>888-537-7828</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 100</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MN</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>56763</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@mitsubishielectric.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Mitsubishi Electric</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>81-3-3218-2111</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>Tokyo Building 2-7-3</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>Tokyo Building 2-7-3</cobie:ContactTownName>
+				<cobie:ContactRegionCode>Tokyo</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>Japan</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>100-8310</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@pacificfiresafety.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Pacific Fire Safety</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>818-765-0170</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>12556 Saticoy Street</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>12556 Saticoy Street</cobie:ContactTownName>
+				<cobie:ContactRegionCode>CA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>91605</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@panelfold.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Panelfold</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>305-688-3501</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>10700 NW 36th Ave.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>10700 NW 36th Ave.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>FL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>33167</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@PVI.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>PVI Industries</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-433-5654</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>n/a</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>PO Box 7124</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>n/a</cobie:ContactTownName>
+				<cobie:ContactRegionCode>TX</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>76111</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@radiometeramerica.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Radiometer America Inc</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-736-0600</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>810 Sharon Drive</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>810 Sharon Drive</cobie:ContactTownName>
+				<cobie:ContactRegionCode>OH</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>44145</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@siemens.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Siemens</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-743-6367</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>300 New Jersey Avenue Suite 1000</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>300 New Jersey Avenue Suite 1000</cobie:ContactTownName>
+				<cobie:ContactRegionCode>DC</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>20001</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@spycor.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>SPYCOR Construction Systems</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>877-293-0784</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1121 Park West Blvd. Suite B-183</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1121 Park West Blvd. Suite B-183</cobie:ContactTownName>
+				<cobie:ContactRegionCode>SC</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>1980-09-02T00:00:00.000</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@sunraydoors.co.uk</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Sunray Doors</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>01233 639039</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>Kingsworth Industrial Estate Wotton Rd.</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>Kingsworth Industrial Estate Wotton Rd.</cobie:ContactTownName>
+				<cobie:ContactRegionCode>Kent</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>UK</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>IN23 6LL</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@taco-hvac.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Taco Inc.</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>401-942-8000</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>1160 Cranston Street</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>1160 Cranston Street</cobie:ContactTownName>
+				<cobie:ContactRegionCode>RI</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>02920</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@us.kone.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Kone</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-956-5663</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>Operation Center</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>One Kone Court</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>One Kone Court</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>2067-09-25T00:00:00.000</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@York.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>York International</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>858-560-7890</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>3954 Murphy Canyon Road Suite D-203</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>3954 Murphy Canyon Road Suite D-203</cobie:ContactTownName>
+				<cobie:ContactRegionCode>CA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>92123</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>sales@zoll.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Zoll Medical Corporation</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>800-348-9011</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>269 Mill Road</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>269 Mill Road</cobie:ContactTownName>
+				<cobie:ContactRegionCode>MA</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>01824</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>salesrep@legrand.com</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Legrand</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>877-295-3472</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>sales</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>60 Woodlawn Street</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>60 Woodlawn Street</cobie:ContactTownName>
+				<cobie:ContactRegionCode>CT</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>06110</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+			<lcie:Contact cobie:externalEntityName="n/a" cobie:externalID="n/a" cobie:externalSystemName="n/a" xmlns:cobielite="http://core.cobielite.cobie.erdc.org">
+				<cobie:ContactEmail>supplycompany@usace.army.mil</cobie:ContactEmail>
+				<cobie:ContactCategory>34-31 11: Manufacturer</cobie:ContactCategory>
+				<cobie:ContactCompanyName>Company</cobie:ContactCompanyName>
+				<cobie:ContactPhoneNumber>217-373-3475</cobie:ContactPhoneNumber>
+				<cobie:ContactDepartmentName>n/a</cobie:ContactDepartmentName>
+				<cobie:ContactGivenName>n/a</cobie:ContactGivenName>
+				<cobie:ContactFamilyName>n/a</cobie:ContactFamilyName>
+				<cobie:ContactStreet>904 Illinois Street</cobie:ContactStreet>
+				<cobie:ContactPostalBoxNumber>n/a</cobie:ContactPostalBoxNumber>
+				<cobie:ContactTownName>904 Illinois Street</cobie:ContactTownName>
+				<cobie:ContactRegionCode>IL</cobie:ContactRegionCode>
+				<cobie:ContactCountryName>USA</cobie:ContactCountryName>
+				<cobie:ContactPostalCode>61820</cobie:ContactPostalCode>
+				<cobie:ContactURL>n/a</cobie:ContactURL>
+			</lcie:Contact>
+		</cobie:Contacts>
+	</ProductInstallationReportReadResult>
+</ProductInstallationReport_210_ServerResponse>
